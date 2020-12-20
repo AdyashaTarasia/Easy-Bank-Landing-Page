@@ -1,1 +1,44 @@
+/************Navigation Bar**************/
+#navbar-nav {  background-color: hsl(0, 0%, 100%); }
+#navbarNav ul li a:hover {
+    position:relative;
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    border-image-slice: 1;
+    color: black;
+    opacity: 1; }
 
+/*******************Global Button Template*****************/
+.btn-primary {
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 40px;
+    background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    color: white; }
+
+/*******************Section1*********************/
+#section1{ background-color: hsl(0, 0%, 98%); }
+
+/**********************Section2 Grid****************************/
+#section2 { background-color: hsl(220, 16%, 96%); }
+
+/**********************Section3****************************/
+#section3 { background-color: hsl(0, 0%, 98%); }
+.card-text { margin-bottom:60px; }
+.card-title:hover {
+    color: lightseagreen;
+    background-clip: text;
+    -webkit-background-clip: text; }
+
+/****************************Footer**********************************/
+footer { background-color: hsl(233, 26%, 24%); }
+.social-media:hover { background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%)); }
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;  }
+a:hover {
+    color: lightseagreen;
+    background-clip: text;
+    -webkit-background-clip: text; }
